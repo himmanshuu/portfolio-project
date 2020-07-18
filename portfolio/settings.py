@@ -135,5 +135,5 @@ MEDIA_URL = '/media/'
 
 try:
     from .local_settings import *
-    expect ImportError:
+except ImportError:
     pass
